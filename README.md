@@ -65,8 +65,8 @@ bun --version
 ### 2. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd kitsune-shop
+git clone https://github.com/MemChoHero/KitsuneShop-Back.git
+cd KitsuneShop-Back
 ```
 
 ---
