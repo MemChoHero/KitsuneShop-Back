@@ -1,10 +1,8 @@
-FROM node:22-alpine
+FROM oven/bun:1
 
 WORKDIR /api
 
-COPY package.json .
-
-RUN npm i -g bun
+COPY package.json bun.lock ./
 
 RUN bun install
 

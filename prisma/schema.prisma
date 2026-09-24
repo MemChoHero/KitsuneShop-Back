@@ -19,5 +19,6 @@ model User {
   nickname    String
   password    String
   role        Role[]
+  active      Boolean   @default(false)
   createdAt   DateTime  @default(now())
 }

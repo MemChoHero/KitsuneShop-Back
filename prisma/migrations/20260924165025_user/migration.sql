@@ -8,6 +8,7 @@ CREATE TABLE "User" (
     "nickname" TEXT NOT NULL,
     "password" TEXT NOT NULL,
     "role" "Role"[],
+    "active" BOOLEAN NOT NULL DEFAULT false,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
